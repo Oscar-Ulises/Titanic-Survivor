@@ -55,7 +55,7 @@ tabla_clase<- data.frame(Clase=c("Primera clase","Primera clase","Segunda clase"
 
 #ggplot(data = tabla_clase, aes(x= Clase, y = Valor, fill = Sobrevivencia))+geom_bar(stat = "identity", position = position_dodge())+theme_minimal()+scale_fill_brewer(palette="Paired")
 ```
-![Caption for the picture.](C:/Users/52473/Desktop/Titanic_app/1.png)
+![Clase.](png/Pclass.png)
 
 ### Sex
 En el caso del sexo, existe una mayor probabilidad de fallecer para las personas del sexo masculino. Las mujeres sobrevivieron más que los hombres, pero además hay muchas más sobrevivientes que fallecidas. Por ende es una variable de suma importancia para el modelo de clasificación. Por ser una variable cualitativa será tratada como factor.
