@@ -56,7 +56,7 @@ Como paso adicional, la nueva tabla con los datos faltantes corregidos fue conve
 ## Modelo
 ### Regresión logística.
 Es un método de regresión que permite estimar la probabilidad de una variable cualitativa binaria en función de una o varias variables.
-$Pr(Y_i=1|X_i) = {\frac{exp(\beta_0 + \beta_1X_i + \beta_2X_2 + \beta_3X_3 + \beta_4X_4 + \beta_5X_5)}{1 + exp (\beta_0 + \beta_1X_i + \beta_2X_2 + \beta_3X_3 + \beta_4X_4 + \beta_5X_5)}}$
+Pr(Y_i=1|X_i) = {\frac{exp(\beta_0 + \beta_1X_i + \beta_2X_2 + \beta_3X_3 + \beta_4X_4 + \beta_5X_5)}{1 + exp (\beta_0 + \beta_1X_i + \beta_2X_2 + \beta_3X_3 + \beta_4X_4 + \beta_5X_5)}}
 
 ### Árboles de Decisión
 Los árboles de decisión representan una serie de decisiones y elecciones en forma de árbol. Usan las características de un objeto para decidir en qué clase se encuentra el objeto. Estas clases generalmente se encuentran en las hojas terminales de un árbol de decisión. Los árboles de decisión pueden ser clasificadores binarios o multiclase. Usan múltiples reglas con resultados binarios para formar una serie de comprobaciones que juzgan y dicen la clase de un objeto según sus características. Los árboles de decisión son un ejemplo de algoritmos de divide y vencerás, ya que usan las reglas para dividir los objetos repetidamente hasta que se toma una decisión final.
