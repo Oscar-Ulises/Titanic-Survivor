@@ -13,10 +13,12 @@ Los valores máximo y mínimo en las variables que no son factores serán tomado
 Pclass es una variable cualitativa que representa la clase en la que viajan, tiene tres posibles resultados: 1 = Clase Alta (aquí viaja la gente rica), 2 = Clase Media (Se les considera ricos y es la segunda más popular) y 3 = Clase Baja (Aquí viaja la mayoría de las personas).
 
 Visiblemente existe una tendencia a sobrevivir si se viaja en primera clase, contrario a lo que sucede en tercera clase. Donde la probabilidad frecuentista de fallecer es notablemente más alta.
+
 ![Clase.](png/Pclass.png)
 
 ### Sex
 En el caso del sexo, existe una mayor probabilidad de fallecer para las personas del sexo masculino. Las mujeres sobrevivieron más que los hombres, pero además hay muchas más sobrevivientes que fallecidas. Por ende es una variable de suma importancia para el modelo de clasificación. Por ser una variable cualitativa será tratada como factor.
+
 ![Sex.](png/Sex.png)
 
 ### Age
@@ -29,12 +31,14 @@ Media de edad primera clase | Media de edad segunda clase | Media de edad tercer
 La cantidad de familiares o pareja que están abordo del navío es lo que significa la variable. Dado que el valor más grande de esta variable es 8 será tratada como factor aunque puramente no lo sea.
 
 La gráfica muestra que entre menos familiares o pareja acompañen al pasajero más probabilidades tiene de sobrevivir.
+
 ![SibSp.](png/SibSp.png)
 
 ### Parch
 Muy similar a SibSo, indica la cantidad de hijos que viajan abordo. Igualmente será tratada como factor. 
 
 El comportamiento es idéntico, entre menos descendencia lleves al viaje más probabilidades tienes de sobrevivir.
+
 ![Parch.](png/Parch.png)
 
 ### Fare
@@ -44,6 +48,7 @@ La tarifa es el precio de ticket, como esta está intimamente relacionada con la
 El Titánic sarpó de Southampton (Inglaterra), posteriormente llegó al puerto de Cherburgo (Francia) y finalmente abordó a sus últimos pasajeros en Queenstown (Irlanda). De ahí que las variables (categóricas) sean S, C y Q. Además contiene dos valores faltantes que serán reemplazados por la moda, es decir donde abordaron más pasajeros. 
 
 La mejor relación de sobrevivencia es la de los pasajeros que abordaron en el puerto de Cherburgo.
+
 ![Caption for the picture.](png/Embarked.png)
 
 Como paso adicional, la nueva tabla con los datos faltantes corregidos fue convertido en un csv con el nombre de "clean_data", misma que fue utilizada para el modelo y que se encuentra en la carpeta.
